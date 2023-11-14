@@ -694,9 +694,7 @@ body {
     margin: 1rem auto;
 }
 
-.shop__link {}
 
-.shop__link {}
 
 /* 
 
@@ -708,7 +706,7 @@ body {
     margin-top: 15rem;
 }
 
-.services-content {}
+
 
 .services-content__title {
     font-family: "Poppins Bold";
@@ -724,7 +722,6 @@ body {
     margin: 2rem 0;
 }
 
-.services-content__link {}
 
 /* 
 
@@ -757,7 +754,6 @@ body {
     margin: 2rem 0;
 }
 
-.xbox-content__link {}
 
 /* 
 
@@ -769,9 +765,6 @@ body {
     margin-top: 15rem;
 }
 
-.product-content {
-
-}
 
 .product-content__img {
     border-radius: 2rem;
@@ -806,9 +799,6 @@ body {
     font-family: "Poppins Bold";
     color: var(--app-color);
     font-size: 1.7rem;
-}
-.footer-item{
-
 }
 .footer-item__links{
     padding: 1rem 0;
@@ -890,6 +880,9 @@ body {
         justify-content: center;
         align-items: center;
         flex-direction: column
+        }
+        * {
+            cursor: default;
         }
 }
 .footer{
